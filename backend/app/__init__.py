@@ -1,1 +1,0 @@
-"""GenSmile FastAPI application package."""
