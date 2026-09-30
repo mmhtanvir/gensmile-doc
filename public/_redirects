@@ -1,1 +1,6 @@
+# sharethedoc.com is a domain alias -- send it to the primary domain.
+# Must stay above the SPA catch-all (first matching rule wins).
+https://sharethedoc.com/*      https://sharethefile.com/:splat  301!
+https://www.sharethedoc.com/*  https://sharethefile.com/:splat  301!
+
 /*    /index.html   200

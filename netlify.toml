@@ -2,20 +2,6 @@
   command = "npm run build"
   publish = "dist"
 
-# sharethedoc.com is a domain alias of this site -- send it to the primary domain.
-# Must stay above the SPA catch-all below.
-[[redirects]]
-  from = "https://sharethedoc.com/*"
-  to = "https://sharethefile.com/:splat"
-  status = 301
-  force = true
-
-[[redirects]]
-  from = "https://www.sharethedoc.com/*"
-  to = "https://sharethefile.com/:splat"
-  status = 301
-  force = true
-
 [[redirects]]
   from = "/*"
   to = "/index.html"
